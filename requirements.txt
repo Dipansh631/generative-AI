@@ -1,5 +1,15 @@
 langchain
 langchain-core
+langchain-text-splitters
+langchain-experimental
+langchain-community
+
+pypdf
+chromadb
+faiss-cpu
+tiktoken
+youtube-transcript-api
+wikipedia
 
 langchain-openai
 openai

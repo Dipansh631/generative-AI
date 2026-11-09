@@ -16,6 +16,7 @@ Repository: [github.com/Dipansh631/generative-AI](https://github.com/Dipansh631/
 - String, JSON, Pydantic, and structured output parsing
 - Pydantic models, `TypedDict`, and annotated schemas
 - Text embeddings and semantic search
+- Retrieval-augmented generation (RAG) document loading, splitting, retrieval, vector stores, and a YouTube chatbot
 - OpenAI, Gemini, Anthropic, and Hugging Face integrations
 - Streamlit prompt interfaces and a research-paper summarization tool
 - A Python 3.11 development-container configuration
@@ -65,6 +66,18 @@ A broader set of model and embedding demonstrations.
 ### `embedding models/`
 
 - `sementic_search.py` - A compact semantic-search example using document and query vectors.
+
+### `RAG/`
+
+End-to-end retrieval-augmented generation examples and supporting data.
+
+- `DocumentLoaders/` - CSV, directory, PDF, text, and web document loading examples with sample data.
+- `TextSplitters/` - Character, markdown, semantic, and structure-aware splitting examples.
+- `Retrivals/Langchain_Retrivers.ipynb` - Retriever patterns, including vector-store and multi-query workflows.
+- `Vector Stores/Vector_Store.ipynb` - Chroma, FAISS, and embedding-backed vector-store examples.
+- `Project YT ChatBot/YT_ChatBot.ipynb` - A YouTube transcript question-answering chatbot.
+
+The notebooks load provider credentials from the repository-root `.env` file. Install the RAG dependencies with `python -m pip install -r requirements.txt`, then set `GOOGLE_API_KEY` locally before running the Gemini examples.
 
 ### `LLMS/`
 
